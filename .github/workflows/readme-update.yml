@@ -1,7 +1,9 @@
 name: Update README
 
-on: [push]
-
+on:
+  push:
+    branches:
+      - '**'  # This will trigger the workflow on any branch
 jobs:
   update-readme:
     runs-on: ubuntu-latest
