@@ -4,7 +4,7 @@ prepration for github exam
 ## workflow status
 | Branch Name | Status       |
 |-------------|--------------|
-| {{github.ref}} | !Build Status |
+| main | !Build Status |
 
 ## Status badge
 
