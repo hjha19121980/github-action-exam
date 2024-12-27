@@ -5,3 +5,6 @@ prepration for github exam
 
 ![example branch parameter.](https://github.com/hjha19121980/github-action-exam/actions/workflows/readme-update.yml/badge.svg?branch=main)
 
+## Branch Name
+{{github.ref}}
+
