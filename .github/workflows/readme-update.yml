@@ -19,6 +19,9 @@ jobs:
         run: |
           sed -i "s/{{github.ref}}/${{ env.BRANCH_NAME }}/g" README.md
 
+      - name: Debug README content
+        run: cat README.md
+
       - name: Commit changes
         run: |
           git config --global user.email "hjha1912@gmail.com"
