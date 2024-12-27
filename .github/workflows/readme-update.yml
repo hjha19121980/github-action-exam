@@ -21,6 +21,8 @@ jobs:
 
       - name: Commit changes
         run: |
+          git config --global user.email "hjha1912@gmail.com"
+          git config --global user.name "hjha19121980"
           git add README.md
           git commit -m "Update branch name in README"
           git push
